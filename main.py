@@ -26,7 +26,7 @@ def bread_first_search(symbol_of_empty, original_state_node, target_state_node, 
         for i in path:
             i.show_node_info()
     else:
-        print('此问题')
+        print('此问题在当前空间限制下无解')
 
 
 # 深度优先搜索
